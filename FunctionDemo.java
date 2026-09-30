@@ -28,7 +28,7 @@ class Student
     }
     Student(String n, int a){
         name = n;
-        age = 3;
+        age = a;
     }
     Student(Student s)
     {
@@ -37,7 +37,7 @@ class Student
     }
     void display()
     {
-        System.out.println("Name: "+ name+ "Age: "+ age );
+        System.out.println("Name: "+ name + "\nAge: "+ age );
     }
     Student getStudents()
     {
@@ -54,7 +54,7 @@ public class FunctionDemo {
 
 
         Student s1= new Student();
-        Student s2= new Student("Darshana",66);
+        Student s2= new Student("Darshana",19);
         Student s3= new Student(s2);
 
         s1.display();
